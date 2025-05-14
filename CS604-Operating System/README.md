@@ -125,6 +125,8 @@ It is based on lectures **1 to 22**, grouped into logical sections, and designed
 ![6](https://github.com/user-attachments/assets/6934fbb8-be99-4321-8774-08f42273aa6e)
 
 
+📄 [Download CS604 Operating System Midterm Notes Mind Map (PDF)]( Operating System  (CS604) – Midterm.pdf)
+
 
 
 
