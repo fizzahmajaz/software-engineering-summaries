@@ -94,33 +94,114 @@ It is based on lectures **1 to 22**, grouped into logical sections, and designed
 
 ## 🧠 Mind Map
 
-Operating System (CS604) Midterm
-├── Group 1: OS Basics & UNIX
-│ ├── Definition of OS
-│ ├── Types: Batch, Time-sharing, Real-time
-│ ├── Components: Kernel, Shell, System Calls
-│ ├── Traps, Interrupts
-│ └── UNIX Commands: ls, cd, pwd, mkdir, etc.
-├── Group 2: Processes
-│ ├── What is a Process
-│ ├── Process States
-│ ├── PCB & Context Switching
-│ ├── Process Creation & Termination
-│ └── Commands: fork, ps, kill
-├── Group 3: Threads & Scheduling
-│ ├── Threads vs Processes
-│ ├── Thread Models
-│ ├── Scheduling Types
-│ └── Scheduling Algorithms: FCFS, SJF, SRTF, RR, Priority
-├── Group 4: Synchronization
-│ ├── Critical Section
-│ ├── Peterson’s Algorithm
-│ ├── Semaphores
-│ └── Problems: Producer-Consumer, Readers-Writers, Philosophers
-└── Group 5: Deadlocks
-├── Conditions for Deadlock
-├── Resource Allocation Graph
-├── Prevention & Avoidance
-└── Banker’s Algorithm, Detection & Recovery
+<details>
+<summary>Group 1: OS Basics & UNIX</summary>
+
+- **Definition of OS**  
+  A system software that manages hardware and software resources.
+
+- **Types of OS**  
+  - Batch: Executes jobs without user interaction.  
+  - Time-sharing: Multiple users access at once (multitasking).  
+  - Real-time: Responds to inputs instantly (used in embedded systems).
+
+- **OS Components**  
+  - Kernel: Core part; manages resources.  
+  - Shell: Interface between user and kernel (CLI/GUI).  
+  - System Calls: Used to interact with OS from programs.
+
+- **Traps & Interrupts**  
+  - Trap: Software-generated interrupt (e.g., error).  
+  - Interrupt: Hardware-generated to gain CPU attention (e.g., I/O).
+
+- **UNIX Commands**  
+  ls, cd, pwd, mkdir, rmdir, man
+
+</details>
+
+<details>
+<summary>Group 2: Processes</summary>
+
+- **What is a Process**  
+  A running instance of a program (active entity).
+
+- **Process States**  
+  New, Ready, Running, Waiting, Terminated
+
+- **PCB & Context Switching**  
+  - PCB: Stores info about a process (state, ID, PC).  
+  - Context Switching: Switching CPU from one process to another.
+
+- **Process Creation & Termination**  
+  `fork()`: Create process | `exit()`: Terminate
+
+- **Useful Commands**  
+  fork, ps, kill
+
+</details>
+
+<details>
+<summary>Group 3: Threads & Scheduling</summary>
+
+- **Threads vs Processes**  
+  Threads share resources of a process; lighter, faster.
+
+- **Thread Models**  
+  User-level threads, Kernel-level threads
+
+- **Scheduling Types**  
+  Preemptive and Non-preemptive
+
+- **Scheduling Algorithms**  
+  FCFS, SJF, SRTF, RR, Priority
+
+</details>
+
+<details>
+<summary>Group 4: Synchronization</summary>
+
+- **Critical Section**  
+  Shared code that must not run by multiple threads at once.
+
+- **Peterson’s Algorithm**  
+  Software-based method for mutual exclusion.
+
+- **Semaphores**  
+  Binary or Counting, using `wait()` and `signal()`
+
+- **Classic Problems**  
+  Producer-Consumer, Readers-Writers, Dining Philosophers
+
+</details>
+
+<details>
+<summary>Group 5: Deadlocks</summary>
+
+- **Conditions for Deadlock**  
+  Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait
+
+- **Resource Allocation Graph**  
+  Visualizes processes and resource holding/waiting
+
+- **Prevention & Avoidance**  
+  - Prevention: Remove one condition  
+  - Avoidance: Use safe state (e.g., Banker’s Algorithm)
+
+- **Detection & Recovery**  
+  Detect deadlock via RAG or wait-for graph  
+  Recover by killing/restarting processes
+
+</details>
+
+<details>
+<summary>Group 6: Critical Section & Synchronization (Lectures 18–22)</summary>
+
+- Mutual exclusion, progress, bounded waiting  
+- Peterson’s algorithm (2-process)  
+- Bakery algorithm (n-process)  
+- Hardware solutions and semaphores  
+- `wait()`, `signal()`, binary and counting semaphores
+
+</details>
 
 ![image](https://github.com/user-attachments/assets/6978b56f-724d-4e89-9e66-44f2c7cdcb23)
