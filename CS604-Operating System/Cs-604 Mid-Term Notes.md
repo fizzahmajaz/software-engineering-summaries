@@ -16,7 +16,7 @@ It is based on lectures **1 to 22**, grouped into logical sections, and designed
 
 ---
 
-## 📘 Group 1: OS Basics & UNIX
+## Group 1: OS Basics & UNIX
 
 **Lectures 1–4**
 
