@@ -5,93 +5,6 @@ It is based on lectures **1 to 22**, grouped into logical sections, and designed
 
 ---
 
-## 📋 Table of Contents
-
-1. [Group 1: OS Basics & UNIX](#group-1-os-basics--unix)
-2. [Group 2: Process Concepts](#group-2-process-concepts)
-3. [Group 3: Threads & CPU Scheduling](#group-3-threads--cpu-scheduling)
-4. [Group 4: Synchronization](#group-4-synchronization)
-5. [Group 5: Deadlocks](#group-5-deadlocks)
-6. [🧠 Mind Map](#-mind-map)
-
----
-
-## Group 1: OS Basics & UNIX
-
-**Lectures 1–4**
-
-- **What is OS? Why needed?**
-- Types of OS: Batch, Time-Sharing, Real-Time.
-- Concepts: Traps, Interrupts, Signals.
-- Components: Kernel, Shell, System Calls.
-- UNIX/Linux Structure: root, home, bin, etc.
-- Commands: `ls`, `cd`, `pwd`, `mkdir`, `rmdir`, `man`.
-
----
-
-## 📘 Group 2: Process Concepts
-
-**Lectures 5–8**
-
-- What is a Process?
-- Process States: new, ready, running, waiting, terminated.
-- PCB (Process Control Block)
-- Context Switching
-- Process Creation (`fork()`), Termination, Orphan, Zombie.
-- `ps`, `kill`, `top`, `nice`.
-
----
-
-## 📘 Group 3: Threads & CPU Scheduling
-
-**Lectures 9–13**
-
-- Thread vs Process
-- Multithreading Benefits & Models
-- Scheduling Concepts: CPU burst, IO burst, preemptive vs non-preemptive.
-- Scheduling Algorithms:
-  - FCFS
-  - SJF
-  - SRTF
-  - Round Robin
-  - Priority Scheduling
-
----
-
-## 📘 Group 4: Synchronization
-
-**Lectures 14–18**
-
-- Critical Section Problem
-- Peterson’s Algorithm
-- Hardware Solutions: test-and-set, mutex locks
-- Semaphores: Binary & Counting
-- Classic Problems:
-  - Bounded Buffer
-  - Reader-Writer
-  - Dining Philosophers
-
----
-
-## 📘 Group 5: Deadlocks
-
-**Lectures 19–22**
-
-- What is a Deadlock?
-- Four Conditions of Deadlock:
-  1. Mutual Exclusion
-  2. Hold and Wait
-  3. No Preemption
-  4. Circular Wait
-- Resource Allocation Graph
-- Methods:
-  - Deadlock Prevention
-  - Deadlock Avoidance (Banker’s Algorithm)
-  - Deadlock Detection
-  - Recovery
-
----
-
 ## 🧠 Mind Map
 
 <details>
@@ -204,4 +117,14 @@ It is based on lectures **1 to 22**, grouped into logical sections, and designed
 
 </details>
 
-![image](https://github.com/user-attachments/assets/6978b56f-724d-4e89-9e66-44f2c7cdcb23)
+![1](https://github.com/user-attachments/assets/98499e43-6aa3-4378-88e9-a1b4ad1626cf)
+![2](https://github.com/user-attachments/assets/17eba1b8-107e-43f1-8539-6d23ff8970bd)
+![3](https://github.com/user-attachments/assets/688b35f1-bc11-483b-8cfb-afa628d5d6f7)
+![4](https://github.com/user-attachments/assets/2871808c-bac8-4ea7-9463-aa9c0b91e1fe)
+![5](https://github.com/user-attachments/assets/bbbd8152-bd14-4f3d-95b5-298624e512ba)
+![6](https://github.com/user-attachments/assets/6934fbb8-be99-4321-8774-08f42273aa6e)
+
+
+
+
+
