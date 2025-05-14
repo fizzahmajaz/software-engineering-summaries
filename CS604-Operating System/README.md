@@ -125,7 +125,8 @@ It is based on lectures **1 to 22**, grouped into logical sections, and designed
 ![6](https://github.com/user-attachments/assets/6934fbb8-be99-4321-8774-08f42273aa6e)
 
 
-📄 [Download Operating System (CS604) – Midterm.pdf](Operating-System(CS604)–Midterm.pdf)
+📄 [Download Operating System (CS604) – Midterm.pdf](CS604-Operating%20System/Operating%20System%20(CS604)%20%E2%80%93%20Midterm.pdf)
+
 
 
 
